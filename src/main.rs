@@ -102,7 +102,7 @@ fn main() {
                 println!("cd: change directory\n  usage: cd <relative path>\n  '..' goes to parent directory\n");
                 println!("pwd: print working directory\n  usage: pwd\n");
                 println!("write: write/replace a file with text you input line by line. Enter a line with just 'q' to quit\n  usage: write (options) <target file relative path>\n  -a => append to file instead\n");
-                println!("read: read one more files\n  usage: read <relative file path> (<relative file path> <relative file path> ...)\n");
+                println!("read: read one or more files\n  usage: read <relative file path> (<relative file path> <relative file path> ...)\n");
                 println!("help: show this list\n");
                 println!("exit: exit the program\n");
             }
